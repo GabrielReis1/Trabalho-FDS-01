@@ -80,7 +80,7 @@ a:hover {
     color: #005799;
 }
 
-/* NOVO: Container flexível para hobbies e imagens */
+/* Container flexível para hobbies e imagens */
 .conteudo-lateral {
     display: flex;
     justify-content: space-between;
