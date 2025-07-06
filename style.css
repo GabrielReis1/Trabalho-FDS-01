@@ -71,7 +71,7 @@ table th {
 
 /* 7. Links com efeito hover */
 a {
-    color: #0077cc;
+    color: #000000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -104,4 +104,33 @@ a:hover {
 .hobbies h2,
 .images h2 {
     margin-bottom: 10px;
+}
+
+/* 8. Estilização do botão */
+.btn {  
+    text-align: center;
+    margin-top: 20px;
+}
+
+#mensagemBtn {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 10px;
+}
+
+#mensagemBtn:hover {
+    background-color: #005fa3;
+    transform: scale(1.05);
+}
+
+#mensagemTexto {
+    font-size: 1.1em;
+    color: #2c3e50;
+    margin-top: 10px;
 }
